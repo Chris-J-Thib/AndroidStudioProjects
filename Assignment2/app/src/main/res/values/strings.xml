@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string-array name="descriptions">
+        <item name="inspire">Christian Thibodeau (2014)</item>
+        <item name="poison_apple">Christian Thibodeau (2013)</item>
+        <item name="shinobu_oshino">Christian Thibodeau (2014)</item>
+    </string-array>
+</resources>

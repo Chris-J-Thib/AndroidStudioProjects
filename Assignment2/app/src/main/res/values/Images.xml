@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="Images">
+        <item name="" description="">@drawable/inspire</item>
+        <item>@drawable/poison_apple</item>
+        <item>@drawable/shinobu_oshino</item>
+    </integer-array>
+</resources>
