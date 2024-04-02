@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
@@ -13,6 +14,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.Wake_My_PCs.SSHManager.executeCommand
@@ -31,17 +33,21 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun Main(){
+    val host = stringResource(id = R.string.Host)
+    val port = stringResource(id = R.string.Port).toInt()
+    val user = stringResource(id = R.string.User)
+    val pass = stringResource(id = R.string.Password)
+
     Column (
-        Modifier.fillMaxSize().padding(90.dp),
+        Modifier
+            .fillMaxSize()
+            .padding(90.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ){
         Button(contentPadding = PaddingValues(30.dp),
             onClick = {
-                executeCommand("147.185.221.18",
-                    "pi",
-                    "123",
-                    25840,
+                executeCommand(host, user, pass, port,
                     "sudo etherwake -i eth0 9C:6B:00:30:15:52")
             }) {
             Text(text = "Green PC")
@@ -58,5 +64,11 @@ fun Main(){
         ) {
             Text(text = "Soul PC")
         }
+        Row {
+            Button(onClick = { /*TODO*/ }) {
+
+            }
+        }
+
     }
 }
