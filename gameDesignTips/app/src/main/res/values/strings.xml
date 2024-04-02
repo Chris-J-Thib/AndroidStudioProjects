@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">30 Days Of Game Design</string>
+    <string-array name="Tips">
+        <item>Define Your Vision: Have a clear idea of what you want your game to be. Define its genre, target audience, core mechanics, and overall theme.</item>
+        <item>Start Small: Especially if youre a beginner, begin with a small, manageable project. This will help you learn the ropes without getting overwhelmed.</item>
+        <item>Research: Study existing games in your chosen genre. Analyze their mechanics, art styles, and player experiences to gather inspiration.</item>
+        <item>Create a Game Design Document (GDD): Document all aspects of your game including mechanics, story, characters, art style, and more. This serves as a roadmap for development.</item>
+        <item>Focus on Core Mechanics: Identify the key gameplay elements that define your game. Polish and refine these mechanics to ensure theyre engaging and fun.</item>
+        <item>Iterate: Expect to iterate on your game design multiple times. Test different ideas, gather feedback, and refine your game accordingly.</item>
+        <item>Balance Difficulty: Strive for a balanced difficulty curve that challenges players without frustrating them. Gradually introduce new mechanics and ramp up the challenge as players progress.</item>
+        <item>Polish Your Art: Invest time in creating high-quality artwork that reflects the tone and style of your game. Consistent and visually appealing art can significantly enhance the player experience.</item>
+        <item>Optimize Performance: Ensure your game runs smoothly on various platforms by optimizing performance. This includes optimizing code, minimizing loading times, and reducing resource usage.</item>
+        <item>Test Thoroughly: Test your game rigorously to identify and fix bugs, glitches, and balancing issues. Consider running beta tests with real players to gather feedback.</item>
+        <item>Create a Memorable Story: If your game includes a narrative, focus on creating compelling characters and storylines that keep players engaged from start to finish.</item>
+        <item>Design for Accessibility: Make your game accessible to a wide range of players by incorporating features such as adjustable difficulty settings, customizable controls, and subtitles for dialogue.</item>
+        <item>Learn from Feedback: Be open to feedback from players, fellow developers, and testers. Use this feedback to identify areas for improvement and refine your game further.</item>
+        <item>Build a Community: Engage with your audience early on through social media, forums, and developer blogs. Building a community around your game can help generate interest and gather valuable feedback.</item>
+        <item>Invest in Marketing: Allocate time and resources to marketing your game effectively. Utilize social media, press releases, influencers, and game conventions to reach potential players.</item>
+        <item>Plan for Monetization: Decide on your monetization strategy early in development. Whether its through upfront sales, in-game purchases, or ads, ensure it aligns with your game and target audience.</item>
+        <item>Stay Organized: Use project management tools to stay organized and keep track of tasks, deadlines, and milestones. This will help you stay on track and manage your workload effectively.</item>
+        <item>Learn from Failures: Dont be discouraged by setbacks or failures. Instead, view them as learning opportunities and use them to improve your skills and refine your game.</item>
+        <item>Network with Other Developers: Connect with other game developers through online communities, forums, and local meetups. Networking can provide valuable support, advice, and opportunities for collaboration.</item>
+        <item>Stay Flexible: Be prepared to adapt your plans and ideas as needed throughout the development process. Game development is often unpredictable, and flexibility is key to overcoming challenges.</item>
+        <item>Focus on User Experience (UX): Prioritize the players experience throughout every aspect of your game, from navigation and controls to interface design and tutorials.</item>
+        <item>Dont Neglect Sound Design: Sound effects and music play a crucial role in immersing players in your game world. Invest in high-quality audio assets and design immersive soundscapes.</item>
+        <item>Document Your Code: Keep your codebase well-documented and organized to make it easier to maintain and collaborate with others.</item>
+        <item>Stay Inspired: Take breaks when needed to avoid burnout, but also seek inspiration from other forms of media, such as movies, books, and art. Inspiration can come from unexpected places.</item>
+        <item>Celebrate Milestones: Acknowledge and celebrate your achievements and milestones throughout the development process. It helps boost morale and keeps motivation high.</item>
+        <item>Stay Updated on Trends: Keep an eye on current trends and developments in the gaming industry. This can help you identify new opportunities and stay competitive.</item>
+        <item>Plan for Post-launch Support: Be prepared to provide ongoing support and updates for your game after launch. Addressing bugs, adding new content, and responding to player feedback can help maintain player engagement.</item>
+        <item>Seek Professional Help When Needed: Dont hesitate to seek help from professionals in areas where you lack expertise, whether its art, programming, or marketing.</item>
+        <item>Stay Persistent: Game development can be challenging and time-consuming, but persistence is key to seeing your project through to completion.</item>
+        <item>Have Fun: Most importantly, enjoy the process of creating your game. Passion and enthusiasm for your project will shine through in the final product.</item>
+    </string-array>
+</resources>
