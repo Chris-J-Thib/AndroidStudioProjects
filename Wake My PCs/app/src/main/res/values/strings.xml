@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Wake My PCs</string>
-    <string name="enter_ssh_command">Enter SSH Command</string>
-    <string name="execute_command">Execute Command</string>
-    <string name="Host">147.185.221.18</string>
-    <string name="Port">25840</string>
-    <string name="User">pi</string>
-    <string name="Password">123</string>
-</resources>
